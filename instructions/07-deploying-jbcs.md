@@ -43,8 +43,8 @@ TODO
 
 Once the playbook has completed, you should be able to access the application by connecting to the load balancer with:
 
- `https://<load balancer ip address>/addressbook`
+ `https://<load balancer ip address>/auth/`
 
- ![address book](../images/addressbook-public.png)
+ ![sso admin console](../images/)
 
- Next [Step 8](./8-testing.md)
+ Next [Step 8](./08-testing.md)

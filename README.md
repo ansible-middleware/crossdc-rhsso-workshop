@@ -1,5 +1,5 @@
 
-<h1 align="center"><a href="https://github.com/ansible-middleware/ansible-middleware-workshop/blob/main/instructions/01-environment-setup.md">Start here!</a></h1>
+<h1 align="center"><a href="https://github.com/ansible-middleware/crossdc-rhsso-workshop/blob/main/instructions/01-environment-setup.md">Start here!</a></h1>
 
 # Ansible-middleware workshop
 
