@@ -1,0 +1,36 @@
+# 8 - Scaling up the deployment
+
+
+```
+---
+TODO
+```
+
+Save this file, and execute the playbook by running the following command:
+
+`ansible-navigator run -i ./inventory/hosts crossdc.yml  --extra-vars "rhn_username=<your rhn login> rhn_password=<your rhn password>"`
+
+
+# Testing the JBCS installation
+
+To test the JBoss Core Services are installed correctly, use your browser and navigate to the external hostname of your JBoss Core Server.
+
+e.g. `https://frontend1.guid01.domainname.com`
+
+You should see the default apache landing page.
+
+![default apache landing page](../images/apache.png)
+
+# Using mod_cluster to configure JBCS
+
+TODO
+
+# Testing the JBCS installation
+
+Once the playbook has completed, you should be able to access the application by connecting to the load balancer with:
+
+ `https://<load balancer ip address>/addressbook`
+
+ ![address book](../images/addressbook-public.png)
+
+ Next [Step 8](./8-testing.md)

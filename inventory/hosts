@@ -1,20 +1,50 @@
-# Placeholder Group
-[demo]
+[crossdc]
 
-# jboss Group
-[jboss]
-192.168.122.64 
-192.168.122.224 
+[crossdc:children]
+sites
+database
 
-# postgres database Group
-[pgsql]
-192.168.122.20
+[sites:children]
+site1
+site2
 
-# jcbs Group
-[jbcs]
-192.168.122.247
+[scenario:children]
+datagrid
+rhsso
+loadbalancer
+database
 
-[demo:children]
-jboss
-pgsql
-jbcs
+[site1]
+site1-datagrid1
+site1-datagrid2
+site1-rhsso1
+#site1-rhsso2
+site1-database1
+#site1-database2
+
+[site2]
+site2-datagrid1
+site2-datagrid2
+site2-rhsso1
+#site2-rhsso2
+site2-database1
+
+[datagrid]
+site1-datagrid1
+site1-datagrid2
+site2-datagrid1
+site2-datagrid2
+
+[rhsso]
+site1-rhsso1
+#site1-rhsso2
+site2-rhsso1
+#site2-rhsso2
+
+[database]
+site1-database1
+#site1-database2
+site2-database1
+
+[loadbalancer]
+loadbalancer0

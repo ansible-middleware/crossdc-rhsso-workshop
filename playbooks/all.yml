@@ -1,0 +1,10 @@
+---
+- import_playbook: prerequisites.yml
+
+- import_playbook: certificates.yml
+
+- import_playbook: loadbalancer.yml
+
+- import_playbook: database.yml
+
+- import_playbook: crossdc.yml

@@ -1,0 +1,5 @@
+---
+- name: Playbook for setting up server identities
+  hosts: all
+  roles:
+    - certificates

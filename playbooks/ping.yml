@@ -1,0 +1,6 @@
+---
+- name: Ping all crossdc hosts
+  hosts: all
+  tasks:
+    - debug:
+        msg: "Ansible Ping on {{ ansible_nodename }}"

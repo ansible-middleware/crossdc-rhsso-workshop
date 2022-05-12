@@ -1,7 +1,4 @@
 ---
-postgres:
-  db_name: wildfly
-  jndi_ds: AddressbookDS
-  user:
-    name: jboss
-    password: jboss
+rh_no_log: True
+jvm_package: java-1.8.0-openjdk-headless
+domain_name: '.rhssocrossdc.com'
