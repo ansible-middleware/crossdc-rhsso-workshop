@@ -3,7 +3,7 @@
 
 # Ansible-middleware workshop
 
-Learn how to deploy JBoss EAP, a PostgreSQL database and a load balancer using Ansible and the ansible-middleware library (maintained at https://ansible-middleware.github.io/).  
+Learn how to deploy a highly available Red Hat Single Sign-On service using Ansible and the ansible-middleware execution environment (maintained at https://ansible-middleware.github.io/).  
 
 This workshop will deploy the following components:
 

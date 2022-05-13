@@ -1,4 +1,5 @@
 collections/ansible_collections/
+venv
 *.zip
 *.tar.gz
 
