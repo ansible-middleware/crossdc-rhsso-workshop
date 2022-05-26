@@ -39,6 +39,7 @@ You should see the default apache landing page.
 
 TODO
 
+
 # Testing the JBCS installation
 
 Once the playbook has completed, you should be able to access the application by connecting to the load balancer with:

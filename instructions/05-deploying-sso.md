@@ -86,6 +86,6 @@ PLAY RECAP *********************************************************************
 ```
 
 
-Next [Step 6](./06-create-sso-realm.md) will deploy the application.
+Next [Step 6](./06-create-sso-realm.md) will configure an Authentication Realm.
 
 

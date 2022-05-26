@@ -7,22 +7,22 @@ First thing we'll do is adding the details of the realm we are going to create. 
 ```
 keycloak_realm: TestRealm
 keycloak_clients:
-    - name: TestClient1
-      roles:
-        - TestClient1Admin
-        - TestClient1User
-      realm: "{{ keycloak_realm }}"
-      public_client: True
-      web_origins:
-        - http://testclient1origin/application
-        - http://testclient1origin/other
-      users:
-      - username: TestUser
-        password: password
-        client_roles:
-          - client: TestClient1
-            role: TestClient1User
-            realm: "{{ keycloak_realm }}"
+  - name: TestClient1
+    roles:
+      - TestClient1Admin
+      - TestClient1User
+    realm: "{{ keycloak_realm }}"
+    public_client: True
+    web_origins:
+      - http://testclient1origin/application
+      - http://testclient1origin/other
+    users:
+    - username: TestUser
+      password: password
+      client_roles:
+        - client: TestClient1
+          role: TestClient1User
+          realm: "{{ keycloak_realm }}"
 
 ```
 
@@ -34,6 +34,8 @@ post-tasks:
     ansible.builtin.include_role:
       name: keycloak_realm
 ```
+
+You can find the full documentation with all parameters and more details [here](https://ansible-middleware.github.io/keycloak/1.0.5/roles/keycloak_realm.html). 
 
 Save changes and re-run the playbook. Once the playbook is complete, you should be able to access the application and navigate to the `TestRealm` realm.
 

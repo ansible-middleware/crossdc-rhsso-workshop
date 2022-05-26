@@ -7,10 +7,10 @@ Learn how to deploy a highly available Red Hat Single Sign-On service using Ansi
 
 This workshop will deploy the following components:
 
-* 4 x App Servers which will host (Red Hat Data Grid)[https://access.redhat.com/products/red-hat-data-grid], 2 nodes x 2 clusters
-* 4 x App Servers which will host (Red Hat Single Sign-On)[https://access.redhat.com/products/red-hat-single-sign-on], 2 nodes x 2 clusters
-* 1 x Frontend Server, which will host (Red Hat JBoss Core Services)[https://access.redhat.com/collections/red-hat-jboss-core-services-collection] as reverse proxy and load balancer
-* 3 x DB Servers, which will host (MariaDB)[https://mariadb.org/] in a galera/wsrep cluster
+* 4 x App Servers which will host [Red Hat Data Grid](https://access.redhat.com/products/red-hat-data-grid), 2 nodes x 2 clusters
+* 4 x App Servers which will host [Red Hat Single Sign-On](https://access.redhat.com/products/red-hat-single-sign-on), 2 nodes x 2 clusters
+* 1 x Frontend Server, which will host [Red Hat JBoss Core Services](https://access.redhat.com/collections/red-hat-jboss-core-services-collection) as reverse proxy and load balancer
+* 3 x DB Servers, which will host [MariaDB](https://mariadb.org/) in a galera/wsrep cluster
 
 The architecture is depicted below.
 
