@@ -1,6 +1,6 @@
-# 4 - Deploying DataGrid
+# 4 - Deploying Data Grid
 
-Next thing we're going to do is deploy DataGrid.  To do this we'll create a playbook by creating the file `playbooks/datagrid.yml`.
+Next thing we're going to do is deploy Data Grid.  To do this we'll create a playbook by creating the file `playbooks/datagrid.yml`.
 
 Copy the contents of the following file into datagrid.yml:
 

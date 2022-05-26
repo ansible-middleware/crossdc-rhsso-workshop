@@ -1,6 +1,6 @@
 # 7 - Deploying JBoss Core Services
 
-Now that the application is deployed, we can access the application by connecting to each individual JBoss EAP instance.  But what we really is need is a load balancer to sit in front of these two nodes, providing a single IP address to access all instance of the application.  JBoss Core Services will provide this funationality for use using mod_cluster.
+Now that the application is deployed, we can access the application by connecting to each individual instance.  But what we really need is a load balancer to sit in front of these two nodes, providing a single IP address to access all instances of the application.  JBoss Core Services will provide this functionality using the [mod_cluster](https://www.modcluster.io/) module.
 
 To deploy JBoss Core Services, we've provided a zip file containing the role required to deploy jbcs.  To add this role the the project, run the following command:
 
@@ -47,4 +47,4 @@ Once the playbook has completed, you should be able to access the application by
 
  ![sso admin console](../images/)
 
- Next [Step 8](./08-testing.md)
+ Next [Step 8](./08-scaling-up.md)

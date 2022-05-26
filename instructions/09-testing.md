@@ -10,14 +10,14 @@ First thing we'll do is add a post_tasks section at the end of all.yml.
       
 ```
 
-This task requires a file validate.yml, so let's create this file in the same level as jboss.yml. Paste the following into validate.yml:
+This task requires a file `validate.yml,` so let's create it in the `playbooks` directory. Paste the following into validate.yml:
 
 ```
 ---
 TODO
 ```
 
-To verify reliability, we will first terminate one DataGrid and one Single Sign-On instance, then check the authorization frontend URL is still available.
+To verify reliability, we will first terminate one Data Grid and one Single Sign-On instance, then check the authorization frontend URL is still available.
 
 ```
 ---

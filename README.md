@@ -7,10 +7,10 @@ Learn how to deploy a highly available Red Hat Single Sign-On service using Ansi
 
 This workshop will deploy the following components:
 
-* 4 x App Servers which will host DataGrid, 2 nodes x 2 clusters
-* 4 x App Servers which will host Single Sign-On, 2 nodes x 2 clusters
-* 3 x DB Servers, which will host MariaDB in a galera/wsrep cluster
-* 1 x Frontend Server, which will host JBCS as load balancer
+* 4 x App Servers which will host (Red Hat Data Grid)[https://access.redhat.com/products/red-hat-data-grid], 2 nodes x 2 clusters
+* 4 x App Servers which will host (Red Hat Single Sign-On)[https://access.redhat.com/products/red-hat-single-sign-on], 2 nodes x 2 clusters
+* 1 x Frontend Server, which will host (Red Hat JBoss Core Services)[https://access.redhat.com/collections/red-hat-jboss-core-services-collection] as reverse proxy and load balancer
+* 3 x DB Servers, which will host (MariaDB)[https://mariadb.org/] in a galera/wsrep cluster
 
 The architecture is depicted below.
 
@@ -24,13 +24,13 @@ You will need an Red Hat network account to be able to download the DataGrid and
 
 ### Instructions
 
-1. [Set up your environment](instructions/01-environment-setup.md)
+1. [Setup your environment](instructions/01-environment-setup.md)
 2. [Learn about adding collections](instructions/02-adding-collections.md)
 3. [Configure the database](instructions/03-configuring-the-database.md)
-4. [Deploying DataGrid](instructions/04-deploying-datagrid.md)
+4. [Deploying Data Grid](instructions/04-deploying-datagrid.md)
 5. [Deploying Single Sign-On](instructions/05-deploying-sso.md)
 6. [Creating an authentication realm](instructions/06-create-sso-realm.md)
-7. [Deploying the load-balancer](instructions/07-deploying-jbcs.md)
+7. [Deploying the load balancer](instructions/07-deploying-jbcs.md)
 8. [Scaling up](instructions/08-scaling-up.md)
 9. [Testing](instructions/09-testing.md)
 10. [Conclusion](instructions/10-conclusion.md)

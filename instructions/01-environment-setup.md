@@ -8,12 +8,12 @@ The account you use must not be managed by SSO in order for the Ansible scripts 
 This workshop requires the provisioning of the following RHPDS environment.  Once this environment is provisioned your will have the following:
 
 * A bastion node, serving a VS Code Server IDE, which can be used to run the workshop
-* 4 x App Servers which will host DataGrid
+* 4 x App Servers which will host Data Grid
 * 4 x App Servers which will host Single Sign-On
 * 3 x DB Server, which will host MariaDB
 * 1 x Frontend Server, which will host JBCS as load balancer
 
-To start the workshop, open the url of your bastion server in a browser. You will be prompted to login.  The default password is `changme`.  Once you login to the IDE you will be able to clone the workshop repository.
+To start the workshop, open the url of your bastion server in a browser. You will be prompted to login.  The default password is `remembertochangeme`.  Once you login to the IDE you will be able to clone the workshop repository.
 
 Open the git panel of the IDE and click on "Clone Repository" and enter the following url:
 

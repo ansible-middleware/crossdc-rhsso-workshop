@@ -2,4 +2,4 @@ collections/ansible_collections/
 venv
 *.zip
 *.tar.gz
-
+ansible-navigator.log
