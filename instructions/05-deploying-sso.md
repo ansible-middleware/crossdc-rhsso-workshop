@@ -49,13 +49,13 @@ firewall on the system is not usually enough, ports must also be made available 
 Finally, we set the JDBC url for Single Sign-On per each site, following what we did for DataGrid, in `group_vars/site1.yml`:
 
 ```
-keycloak_jdbc_url: jdbc:mariadb:sequential://site1-database1,site1-database2,site2-database1:3306/keycloak
+keycloak_jdbc_url: jdbc:mariadb:sequential://site1-database1,site2-database1:3306/keycloak
 ```
 
 and `group_vars/site2.yml`
 
 ```
-keycloak_jdbc_url: jdbc:mariadb:sequential://site2-database1,site1-database1,site1-database2:3306/keycloak
+keycloak_jdbc_url: jdbc:mariadb:sequential://site2-database1,site1-database1:3306/keycloak
 ```
 
 Note how we use the local site mariadb instance in the first position of the list in the JDBC url: that assign a preference to connect to the local lower latency host.

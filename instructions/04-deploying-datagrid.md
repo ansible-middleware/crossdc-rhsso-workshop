@@ -34,7 +34,7 @@ user_accounts:
 infinispan_keycloak_caches: True
 jdg_enable: True
 jdg_configure_firewalld: True
-jdg_keycloak_persistence: True
+jdg_keycloak_persistence: False
 jdg_jgroups_relay: True
 jdg_jgroups_relay_sites:
   - site1
@@ -57,7 +57,6 @@ On the first lines here, we set the administrator password, and define two addit
 
 * we enable initialization for Single Sign-On caches
 * we enable the config for the firewall
-* JDBC persistence
 * cross datacenter relaying, defining two sites
 * parameters for secure TLS communication
 
